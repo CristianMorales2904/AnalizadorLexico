@@ -108,11 +108,11 @@ void tablasCompactas(int pos, int l, char c) { // Realiza el recorrido en las Ta
 }
 
 void metodoArchivo() {
-    // Lee caracter por caracter del Archivo .txt
+    // Lee caracter por caracter del archivo.c
     // int linea = 0; // Esta variable no se utiliza en el código actual
 
     ifstream fichero; // Variable fichero para leer los datos
-    fichero.open("archivo.c"); // Abre el archivo "lenguaje.txt"
+    fichero.open("archivo.c"); // Abre el archivo "archivo.c"
 
     fichero.get(caracter); // Intenta leer el primer caracter del archivo
 
